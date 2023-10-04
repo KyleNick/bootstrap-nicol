@@ -1,0 +1,575 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+p{
+    color: grey;
+}
+.logo{
+    width: 5%;
+}
+
+/*Title Section*/
+#title{
+    background-color: #2E303E; 
+    padding: 3% 15% 5%;
+}
+.brand-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.links{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.20rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.title-quote{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.btn-download{
+    margin: 10% 3% 5% 0;
+}
+.fab-icon{
+    margin-right: 8px;
+}
+.fab-icon-head{
+    color: white;
+}
+.title-img{
+    width: 110%;
+    right: -15%;
+    bottom: -20%;
+    position: absolute;
+}
+
+/*Features Section*/
+#features{
+    padding: 7% 14%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+.fa-icon{
+    color: #6f7c9c;
+    margin: 1rem;
+}
+.fa-icon:hover{
+    color: #2E303E;
+}
+.feature-title-main{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.feature-title{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.feature-col{
+    padding: 5%;
+}
+
+/*Testimonials Section*/
+#testimonials{
+    background-color:  #2E303E;
+    text-align: center;
+    color: white;
+}
+.testimonial-image{
+    width: 50%;
+    margin: 0px;
+}
+.testimonial-text{
+    padding-top: 50px;
+    font-style: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 1% 14%;
+}
+
+
+/*Press Section*/
+#press{
+    background-color:  #2E303E;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.price-heading,.price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*CTA Section*/
+#cta{
+    background-color:  #6f7c9c;
+    padding: 7% 14%;
+    text-align: center;
+}
+.cta-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    position: relative;
+    left: 60px;
+}
+#cta-button{
+    position: relative;
+    left: 80px;
+}
+.cta-img{
+    width: 160%;
+    right: -25%;
+    bottom: 0%;
+    position: absolute;
+}
+/*Menu Section*/
+#menu{
+    padding: 7% 14%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+.fa-icon{
+    color: #6f7c9c;
+    margin: 1rem;
+}
+.fa-icon:hover{
+    color: #2E303E;
+}
+.menu-title-main{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+.menu-title{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+#menu-top{
+    padding-top: 2rem;
+}
+.menu-img{
+    width: 50%;
+    bottom: 0%;
+    position: relative;
+}
+
+/*footer Section*/
+#footer{
+    text-align: center;
+    padding: 7% 14%;
+}
+.foot-icon{
+    padding: 20px 10px;
+}
+
+
+/*2nd page*/
+.title-quote2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+    padding-bottom: 2.5rem;
+}
+#title2{
+    text-align: center;
+}
+.title2-img{
+    width: 70%;
+    bottom: 0%;
+    position: relative;
+}
+#menu2{
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    box-sizing: border-box;
+}
+.menu2{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(320px,1fr));
+    grid-gap: 20px 40px;
+}
+.h1{
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.h3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 0 20px;
+}
+.food-items img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub{
+    display: grid;
+}
+.details-sub>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    padding: 5%;
+    text-align: right;
+}
+.details>p{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.details>button{
+    position: relative;
+    left: 22.5%;
+    background-color: #2E303E;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+}
+/*3rd Page*/
+#features3{
+    padding: 7% 14%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    text-align: justify;
+}
+.feature-title3-main{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+.feature-title3{
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.title3-quote{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.title3-img{
+    width: 40rem;
+    right: -8rem;
+    bottom: -2rem;
+    position: absolute;
+}
+.review1-img{
+    width: 110%;
+    right: -10rem;
+    top: -10px;
+    position: relative;
+}
+.review2-img{
+    width: 110%;
+    position: relative;
+}
+/* ceo */
+#ceo{
+    background-color: #2E303E;
+    text-align: center;
+    padding: 20px;
+}
+.ceo-head{
+    padding: 20px;
+    margin: 10px;
+}
+.ceo-head-msg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.ceo-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.ceo-msg{
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+.ceo-msg-txt{
+    color: white;
+    line-height: 1.5rem;
+    padding-top: 10px;
+}
+
+/*Responsiveness*/
+@media (max-width:1440px){
+    .title-quote{
+        font-size: 3rem;
+    }
+    .title-img{
+        width: 90%;
+        right: -0%;
+        bottom: -30%;
+        position: absolute;
+    }
+    .review1-img,.review2-img{
+        width: 90%;
+        right: -1rem;
+        position: relative;
+    }
+    .title3-img{
+        right: -4rem;
+        bottom: -6rem;
+    }
+    .btn-download{
+        margin-right: 6px;
+    }
+}
+@media (max-width:1024px){
+    .title-quote{
+        font-size: 2.8rem;
+    }
+    .title3-quote{
+        font-size: 2.5rem;
+    }
+    .title-img{
+        width: 100%;
+        right: -2%;
+        bottom: -10%;
+        position: absolute;
+    }
+    .title3-img{
+        right: -7rem;
+        bottom: -4rem;
+    }
+    .btn-download{
+        margin-right: 6px;
+    }
+    .cta-title{
+        font-size: 2.5rem;
+    }
+    .details>button{
+        position: relative;
+        left: 25%;
+    }
+}
+
+@media (max-width:768px){
+    .title-img{
+        position: relative;
+        left: 100px;
+        width: 60%;
+    }
+    .title-quote2,.title3-img{
+        font-size: 2rem;
+    }
+    .title2-img{
+        width: 90%;
+    }
+    .title3-img{
+        width: 35rem;
+        right: 0rem;
+        bottom: 0rem;
+        position: relative;
+    }
+    .review1-img,.review2-img{
+        width: 50%;
+        right: -8rem;
+        position: relative;
+    }
+    .column-one{
+        text-align: center;
+    }
+    .cta-img{
+        width: 80%;
+        left: 0%;
+        position: relative;
+    }
+    .cta-title{
+        font-weight: 900;
+        font-size: 2.5rem;
+        line-height: 1.5;
+        color: white;
+        position: relative;
+        left: -0%;
+    }
+    #cta-button{
+        position: relative;
+        left: -0px;
+    }
+    .details>button{
+        position: relative;
+        left: 35%;
+    }
+
+}
+
+@media (max-width:425px){
+    .title-quote{
+        font-size: 2rem;
+    }
+    .title3-quote{
+        font-size: 2rem;
+    }
+    .title-img{
+        width: 50%;
+        left: 25%;
+        position: relative;
+    }
+    .title2-img{
+        width: 100%;
+    }
+    .title3-img{
+        width: 20rem;
+    }
+    .review1-img,.review2-img{
+        width: 80%;
+        right: -2.5rem;
+    }
+    .cta-title{
+        font-size: 2.2rem;
+    }
+    .press-logo{
+        width: 15%;
+        margin: 10px 10px 20px;
+    }
+    .details>button{
+        position: relative;
+        left: 15%;
+    }
+    .ceo-head-msg{
+        font-size: 2rem;
+    }
+}
+@media (max-width:375px){
+    .feature-title-main{
+        font-size: 1.7rem;
+    }
+    .feature-title3-main{
+        font-size: 1.7rem;
+    }
+    .testimonial-text{
+        font-size: 1.7rem;
+    }
+    .menu-title-main{
+        font-size: 1.7rem;
+    }
+    .cta-title{
+        font-size: 1.7rem;
+    }
+    .title-img{
+        width: 70%;
+        left: 15%;
+    }
+    .title2-img{
+        width: 110%;
+    }
+    .title3-quote{
+        font-size: 1.7rem;
+    }
+    .title3-img{
+        width: 15rem;
+        right: -0.8rem;
+    }
+    .review1-img,.review2-img{
+        width: 80%;
+        right: -1.5rem;
+    }
+    #menu2{
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .title-quote2{
+        font-size: 1.8rem;
+    }
+}
+@media (max-width:320px){
+    .title-quote{
+        font-size: 1.2rem;
+    }
+    .title3-quote{
+        font-size: 1.2rem;
+    }
+    .title3-img{
+        width: 15rem;
+        right: 0.5rem;
+    }
+    .menu-title-main{
+        padding-top: 1rem;
+    }
+    .ceo-head-msg{
+        font-size: 1.7rem;
+    }
+    .ceo-msg-txt{
+        font-size: 1rem;
+    }
+    .feature-title-main{
+        font-size: 1.7rem;
+        font-weight: 900;
+    }
+    #menu2{
+        padding: 0.2rem;
+        margin:0.2rem;
+    }
+    .menu-img{
+        width: 50%;
+    }
+}
